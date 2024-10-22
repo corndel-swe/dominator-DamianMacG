@@ -8,8 +8,9 @@
  */
 export function increment(num) {
   // TODO: increase the value of num by 1
+  num++;
 
-  return num // Don't change this line
+  return num;
 }
 
 /**
@@ -20,6 +21,6 @@ export function increment(num) {
  */
 export function decrement(num) {
   // TODO: decrease the value of num by 1
-
-  return num // Don't change this line
+num--;
+  return num;
 }
